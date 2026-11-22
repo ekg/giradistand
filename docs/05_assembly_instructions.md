@@ -18,8 +18,8 @@ in place and every thread in a purchased locknut.
 | P3 | base tray | 1 | "P3" on the underside — the one with four foot holes |
 | P4 | rear panel | 1 | "P4" on the rear face |
 | P5 | wall strap | 1 | "P5" |
-| — | M5×12 button head screws | 22 | bag A |
-| — | M5 flanged locknuts | 22 (+2 spare) | bag A |
+| — | M5×12 button head screws | 23 | bag A |
+| — | M5 flanged locknuts | 23 (+2 spare) | bag A |
 | — | M6 levelling glides | 4 | bag B |
 | — | M6 flanged locknuts | 4 | bag B |
 | — | ISO-PUCK mini isolators | 8 | bag C |
@@ -35,7 +35,8 @@ Check that the 11 holes are visible.
 
 **2. Feet into the base tray (3 min).**
 P3 has four 6.6 mm holes near its corners. Screw one M6 glide into each from below,
-then run an M6 locknut down from above and leave it loose. **Arrow/dot on the tray
+then run an M6 locknut onto the stud from **above** and leave it loose (it will be
+tightened against the deck's top face in step 8). **Arrow/dot on the tray
 face must point to the front** (the front flange is 20 mm; the rear is 30 mm).
 Feet positions: 262 mm from the centre line left/right, 183 mm front/rear.
 
@@ -52,12 +53,13 @@ one person can do it by rolling the assembly onto the base tray. Now it is a "U"
 
 **5. Rear panel P4 (4 min).**
 Slide P4 down between the slabs at the rear: its two forward flanges sit against the
-slab inner faces with the 2 holes per side aligned. 2 M5 screws per side, from the
-outside, locknuts inside, finger-tight. It rests on the base tray.
+slab inner faces with the 2 holes per side aligned. 2 M5 screws per side, pushed from
+inside, locknuts outside, finger-tight. It rests on the base tray.
 *The panel is the stand's racking resistance — do not leave it out.*
 
 **6. Middle tray P2 (6 min).**
-Drop the tray in from above, flanges outside the slabs, slots over the middle holes.
+Drop the tray in from above so its two end flanges sit against the slabs' **inner**
+faces, slots over the middle holes.
 3 M5 per side, finger-tight.
 
 **7. Top tray P2 (6 min).**
@@ -74,7 +76,8 @@ Same as step 6, at the top holes. Both sides, all six screws, finger-tight.
    firm hand-tight plus a quarter turn (≈3 N·m with a 3 mm key) while holding the
    screw head still. The slots allow ±0.65 mm of vertical float; tightening is what
    fixes each shelf's height, so tighten after levelling, not before.
-4. Lock the M6 feet locknuts against the base tray underside.
+4. Lock the M6 feet locknuts against the base tray's **top** face (the stud stands
+   about 6 mm proud of the nut; that is the thread the adjustment uses).
 5. Push the stand gently side-to-side and front-to-back: it should feel like one piece,
    with no creak and no relative movement at any corner.
 

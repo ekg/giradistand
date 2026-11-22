@@ -101,7 +101,7 @@ speaker.
 
 * The earlier "M5 hardware, 5 mm Allen key, five or six panels, 16–24 bolts" and the
   "24 × 16 × 32 in cabinet" from the prior conversation: treated as illustrative only.
-  The design arrived at 5 part numbers / 6 pieces / 22 bolts / 570 × 400 × 626 mm on its
+  The design arrived at 5 part numbers / 7 pieces / 23 fasteners / 570 × 400 × 626 mm on its
   own derivation.
 * The AR Powered Partner 570 dimensions were **not** substituted silently: the envelope
   used is the one that matches *both* the owner's 10.5 × 6 × 7.9 in recollection and the

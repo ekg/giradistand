@@ -29,7 +29,7 @@ competitive on 3–5 parts. Quote both; the files are supplier-neutral.
 
 | item | spec | qty | unit (USD) | ext |
 |---|---|---|---|---|
-| P1–P5 fabrication, powder coated | see above | 6 pieces | — | see below |
+| P1–P5 fabrication, powder coated | see above | 7 pieces | — | see below |
 | M5 × 12 button head, ISO 7380-1, A2-70 | 3 mm hex socket | 22 | ~0.42 | 9.24 |
 | M5 flanged nylon-insert locknut, DIN 6923 | 8 mm AF | 22 (+2 spare) | ~0.34 | 8.16 |
 | M6 levelling glide, male stud | M6 × 40, 23 mm base | 4 | ~1.85 | 7.40 |
@@ -65,7 +65,7 @@ five distinct parts, four bends, a bend-heavy tray geometry and a powder coat ha
 floor of roughly $250–300 in fabrication because per-part setup dominates every line
 item. Within that floor this design is already lean:
 
-* 5 part numbers for 6 pieces (the two biggest parts are shared);
+* 5 part numbers for 7 pieces (the two biggest parts are shared);
 * zero hardware insertion, zero tapping, zero welding, zero secondary machining;
 * one finish, one material, one thickness;
 * the largest part is 620 × 453 mm flat, well inside every supplier limit, so there is

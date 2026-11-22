@@ -4,7 +4,7 @@
 equipment confirmation.** Not supplier-accepted, not physically tested.
 
 A three-level mild-steel stand, made from seven CNC-laser-cut and CNC-bent pieces of
-1.88 mm cold-rolled steel, powder coated textured black, assembled with 22 M5 screws
+1.88 mm cold-rolled steel, powder coated textured black, assembled with 23 M5 screws
 and locknuts and four screw-in levelling feet using a hex key and one small wrench.
 
 | level | carries | clear opening |

@@ -90,7 +90,7 @@ made.** The design makes it as good as the arrangement allows, and the test plan
 
 * Powder coat: wipe with a damp cloth. No solvents, no abrasives. Wrinkle/textured
   finishes trap dust in the texture; a soft brush works better than a cloth.
-* Annual: re-torque the 22 M5 locknuts (1/8 turn check), check the feet, re-check the
+* Annual: re-torque the 23 M5 locknuts (1/8 turn check), check the feet, re-check the
   platter with a bubble level, look for white corrosion at any clamped edge.
 * Do not drag the stand with the crate loaded: lift it, or unload first. Dragging on a
   hard floor wears the polymer glides and can walk a locknut loose.

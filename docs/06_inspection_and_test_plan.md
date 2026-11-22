@@ -88,7 +88,7 @@ during the first test.
 
 | # | check | accept |
 |---|---|---|
-| 5.1 | re-torque all 22 M5 locknuts | none moves more than 1/8 turn |
+| 5.1 | re-torque all 23 M5 locknuts (incl. the strap) | none moves more than 1/8 turn |
 | 5.2 | feet | still carrying load, no floor marks |
 | 5.3 | platter level | still level (a shelf may have settled in its slots) |
 | 5.4 | coating at clamped faces | no fretting dust, no rust |
