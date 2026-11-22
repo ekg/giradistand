@@ -89,6 +89,11 @@ numpy 2.5.5, matplotlib 3.11.2, VTK 9.6.2 (offscreen EGL rendering).
 
 ## 5. Package contents
 
+The **cheaper plywood alternative** required by `cncflatpack.md` is in
+[`flatpack/`](flatpack/) — 602 × 415 × 630 mm, one 18 mm birch sheet, 6 pieces, 6 dowels,
+≈US$331 estimated. It shares this package's equipment tolerances, calculation method and
+status language.
+
 ```
 README.md                     this file
 docs/                         13 documents (01-13) (recommendation, register, validation,
@@ -107,4 +112,5 @@ out/bom.csv                   bill of materials
 out/cost_model.md             cost model and cost drivers
 out/input_register.csv        machine-readable input register
 GI-RAD-STAND-R09-package.zip  everything above, zipped
+flatpack/                     the plywood flat-pack alternative (its own package)
 ```

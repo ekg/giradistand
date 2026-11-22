@@ -302,6 +302,26 @@ def checks(geo):
           f"beyond the hole (1.75 d) -> acceptable for plywood",
           f"* tab shear area through the dowel line: 18 x (150-8) = "
           f"{18*(150-8):.0f} mm2"]
+    # 6. re-import every STEP and compare with the model
+    L += ["", "## 6. Export / re-import verification", "",
+          "| part | solids in STEP | bbox STEP (mm) | bbox model (mm) | volume delta | result |",
+          "|---|---|---|---|---|---|"]
+    for pid in ("P1", "P2", "P3", "P4"):
+        src = parts[pid]["solids"][0]
+        sp = os.path.join(OUT, "step", SHORT[pid] + ".step")
+        imp = cq.importers.importStep(sp)
+        sols = imp.solids().vals()
+        vs = sum(x.Volume() for x in sols)
+        vm = src.Volume()
+        bb = sols[0].BoundingBox()
+        bm = src.BoundingBox()
+        dims = sorted([round(bb.xlen, 2), round(bb.ylen, 2), round(bb.zlen, 2)])
+        dm = sorted([round(bm.xlen, 2), round(bm.ylen, 2), round(bm.zlen, 2)])
+        good = (len(sols) == 1 and dims == dm and abs(vs - vm) / vm < 1e-6)
+        if not good:
+            ok = False
+        L.append(f"| {pid} | {len(sols)} | {dims} | {dm} | "
+                 f"{100*(vs-vm)/vm:+.4f} % | {'PASS' if good else 'FAIL'} |")
     L += ["", f"## Overall: {'ALL CHECKS PASS' if ok else 'ITEMS FLAGGED'}"]
     return "\n".join(L), ok
 

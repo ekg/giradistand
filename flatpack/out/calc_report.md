@@ -1,6 +1,6 @@
 # FLAT PACK STAND -- calculations (plywood)  W0.9 provisional
 
-Generated 2026-11-22 by `flatpack/calc/run_all.py`.
+Generated 2026-11-23 by `flatpack/calc/run_all.py`.
 All inputs come from `flatpack/cad/params.py`.
 
 ## 0. Basis
