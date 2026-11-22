@@ -60,7 +60,6 @@ def sheet_ga():
     sc = 1 / 2.6
     v1 = place(sh, frame, "front", 30, 110, sc, "FRONT ELEVATION")
     v2 = place(sh, near, "side_r", 300, 110, sc, "SIDE ELEVATION (near side removed)")
-    v3 = place(sh, frame, "top", 460, 300, 1 / 5, "PLAN")
     xd = 268
     for a, b, t in ((0, P.Z_BASE, "32"), (P.Z_BASE, P.Z_MID, "390"),
                     (P.Z_MID, P.Z_TOP, "208")):
