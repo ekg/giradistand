@@ -43,9 +43,11 @@ Feet positions: 262 mm from the centre line left/right, 183 mm front/rear.
 **3. Base tray onto the slabs (6 min) — two hands, no helper needed.**
 Stand both slabs on edge, outer faces out, 566.2 mm apart, on the floor. Lower P3
 between them so its two *end* flanges sit against the slabs' inner faces, lining up the 3 slots
-per side with the 3 lowest holes in each slab. Insert 3 M5 screws per side from the
-outside, add a locknut on the inside, and leave them **finger-tight**. The tray will
-hang; that is expected.
+per side with the 3 lowest holes in each slab. Push one M5 screw per hole from
+**inside the bay** (button head inboard) through the tray flange and the slab, and fit its
+locknut on the **outside** face — finger-tight only. The tray will hang; that is expected.
+Every nut in this kit is on the outside, deliberately: with the heads outboard, the base
+tray's own 20 mm skirt would have closed off the nuts entirely.
 
 **4. Turn the assembly upright (1 min).**
 Two people is safer here if you are not comfortable lifting 10 kg while it is loose;
