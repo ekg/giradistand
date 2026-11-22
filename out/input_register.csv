@@ -1,0 +1,33 @@
+id,item,value,units,source,status,consequence_if_wrong
+E1,turntable model,AT-LP120XUSB (unconfirmed),,,P,any deck within 566x400 fits
+E2,turntable body WxDxH,452.0x352.0x141.6,mm,Audio-Technica manual p15-16,M,deeper than 400 -> increase D_OVER
+E3,turntable mass,8.0,kg,Audio-Technica manual,M,payload assumed 15 kg covers it
+E4,turntable foot positions,42 inboard sides / 45 inboard front-rear,mm,assumed,P,flat top face supports any pattern inside 500x330
+E5,foot levelling range,+/-8,mm,Audio-Technica manual,M,final platter levelling device
+E6,rear connector projection,35,mm,assumed,P,connectors overhang open rear edge
+E7,dust cover open envelope,458x358 hinge rear top,mm,assumed,P,34 mm rear projection when hinged
+E8,speaker variant/envelope,155x267x194 / 3.16 kg,mm/kg,Advent AV570 manual; AR 570 spec,M envelope / P identity,bays driven by these
+E9,speaker base face,194 mm leg (wedge 155x194 baffle 38.6 deg),,product photo + spec sheets,P,H_SPK +39 mm if it rests on the 155 face
+E10,speaker bottom flatness,flat over pad positions,,assumed,P,use 3 pads or a plywood shoe if rounded
+E11,speaker connectors,RCA + DC + AC + switch on rear face,,AV570 manual,M,206 mm clear behind each cabinet
+E12,speaker controls,front-left strip of baffle,,product photo,M,front of shelf open
+E13,speaker mounting holes,3x8-32 + 1x7/16-10 in end caps,,AV570 manual,M,deliberately not used (isolation)
+S1,record container,Groove Crate 14.5x14.5x14.125 in,in,supplier page,P,bay accepts 566x396x400
+S2,crate external dimensions,368.3x368.3x358.8,mm,supplier page (14.5/14.5/14.125 in),M,
+S3,crate loaded mass,22 (80-100 LPs),kg,supplier capacity + 0.25 kg/LP,P,design payload 40 kg
+S4,two crates side by side,736.6 needed vs 566.2 available,mm,CAD,C,two-crate stand ~752 wide
+S5,crate removal path,400 mm forward unobstructed,,CAD checks 6,C,
+S6,record browsing,41 mm above crate rim in place,,CAD,C,browse with crate drawn forward
+C1,material,Mild steel CRS 1008/1010 0.074 in,in,SendCutSend catalogue,M,
+C2,sheet thickness,1.88,mm,0.074 in nominal,M,+-0.10 in tolerance stacks
+C3,inside bend radius,1.60,mm,SendCutSend bending calculator,M,no custom radii offered
+C4,K factor / bend deduction,0.40 / 3.277,mm,SendCutSend bending calculator,M,all flat patterns
+C5,min formed flange,8.13,mm,SendCutSend bending calculator,M,smallest used 20 mm
+C6,max flat part,762x1117 cut / 762x914 coat,mm,SendCutSend materials,M,largest part 620x453
+C7,bend-to-edge tolerance,+/-0.38,mm,SendCutSend bending page,M,absorbed by 6.8 mm slots
+C8,bend angle tolerance,+/-1,deg,SendCutSend bending page,M,flange contact only
+C9,coating build,0.05-0.13 per side,mm,SendCutSend powder coating,M,in clearance stacks
+C10,payloads 15/10/40,kg,kg,brief provisional,P,utilisation scales linearly
+C11,lateral disturbance,60 N criterion / 100 N reported at 900 mm,N/mm,assumption,P,wall strap covers higher case
+C12,floor level,+-3 over 500,mm,assumption,P,M6 glides give ~+-5 mm
+C13,listening distance,1.5-2.5,m,assumption,P,see docs/13

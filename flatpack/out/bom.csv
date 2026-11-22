@@ -1,0 +1,21 @@
+part,description,qty,material,thickness_mm,length_mm,width_mm,area_mm2,grain,finish
+P1,SIDE PANEL,2,18 mm Baltic birch ply B/BB,18.0,415,630,261450,long axis along sheet X,"sanded, unfinished"
+P2,SHELF,2,18 mm Baltic birch ply B/BB,18.0,638,394,251372,long axis along sheet X,"sanded, unfinished"
+P3,BASE SHELF,1,18 mm Baltic birch ply B/BB,18.0,638,394,251372,long axis along sheet X,"sanded, unfinished"
+P4,WALL STRAP,1,18 mm Baltic birch ply B/BB,18.0,70,55,3850,long axis along sheet X,"sanded, unfinished"
+P5,FIT COUPON,1,18 mm Baltic birch ply B/BB,18.0,150,90,13500,long axis along sheet X,"sanded, unfinished"
+
+PURCHASED,,qty,spec,,,,,,unit_est_usd
+,Birch dowel 8 mm x 1000,1,cut to 6 x 40 mm,,,,,,4.50
+,"M6 levelling glide, male stud, 23 mm base",4,"M6x40, polymer base",,,,,,1.85
+,M6 flanged nylon-insert locknut DIN 6923,4,"M6, 10 mm AF",,,,,,0.38
+,"Sorbothane isolation pad 50 x 50 x 6 mm, 30 duro",8,"8 off, 1 per speaker corner (or ISO-PUCK mini upgrade)",,,,,,2.20
+,Wall fixing for P4 strap,2,4.0 x 40 screw or anchor,,,,,,0.30
+
+,plywood sheets,,,,,,,,110.00
+,CNC routing,,,,,,,,95.00
+,edge/face sanding,,,,,,,,35.00
+,purchased items,,,,,,,,31.62
+,shipping,,,,,,,,32.00
+,tax 9%,,,,,,,,27.33
+,TOTAL ESTIMATE,,,,,,,,330.95
