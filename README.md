@@ -94,6 +94,17 @@ The **cheaper plywood alternative** required by `cncflatpack.md` is in
 ≈US$331 estimated. It shares this package's equipment tolerances, calculation method and
 status language.
 
+Two **upright-speaker alternatives** are in [`variants/`](variants/): standing the
+Powered Partners up (150 × 196 × 270 triangular plan) drops the speaker pair from 534 mm
+to 282 mm, so the turntable finally sets the width —
+
+* **A, steel:** 486 × 400 × 741 mm, ≈US$514, platter at 882 mm;
+* **B, plywood flat-pack:** 518 × 415 × 745 mm, ≈US$331, six dowels, mallet only.
+
+Both put the baffles vertical (toed in 20°, because the baffle is on the diagonal face),
+spread the acoustic centres to 329 mm, and bring the footprint to within 22 % of the
+turntable's — at the cost of 115 mm of height.
+
 ```
 README.md                     this file
 docs/                         13 documents (01-13) (recommendation, register, validation,
