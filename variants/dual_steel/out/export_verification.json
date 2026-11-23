@@ -1,0 +1,233 @@
+{
+  "step": [
+    {
+      "part": "P1",
+      "file": "P1_SIDE_SLAB.step",
+      "n_solids": 1,
+      "bbox_src": [
+        1.88,
+        400.0,
+        726.88
+      ],
+      "bbox_imp": [
+        1.88,
+        400.0,
+        726.88
+      ],
+      "vol_src": 546122.4,
+      "vol_imp": 546122.4,
+      "dvol_pct": 0.0,
+      "dims_match": true,
+      "valid": true
+    },
+    {
+      "part": "P2",
+      "file": "P2_SHELF_TRAY.step",
+      "n_solids": 1,
+      "bbox_src": [
+        566.24,
+        400.0,
+        30.0
+      ],
+      "bbox_imp": [
+        566.24,
+        400.0,
+        30.0
+      ],
+      "vol_src": 514192.8,
+      "vol_imp": 514192.8,
+      "dvol_pct": -0.0,
+      "dims_match": true,
+      "valid": true
+    },
+    {
+      "part": "P3",
+      "file": "P3_BASE_TRAY.step",
+      "n_solids": 1,
+      "bbox_src": [
+        566.24,
+        400.0,
+        30.0
+      ],
+      "bbox_imp": [
+        566.24,
+        400.0,
+        30.0
+      ],
+      "vol_src": 497406.8,
+      "vol_imp": 497406.8,
+      "dvol_pct": -0.0,
+      "dims_match": true,
+      "valid": true
+    },
+    {
+      "part": "P4",
+      "file": "P4_REAR_PANEL.step",
+      "n_solids": 1,
+      "bbox_src": [
+        565.64,
+        20.0,
+        398.5
+      ],
+      "bbox_imp": [
+        565.64,
+        20.0,
+        398.5
+      ],
+      "vol_src": 451013.9,
+      "vol_imp": 451013.9,
+      "dvol_pct": -0.0,
+      "dims_match": true,
+      "valid": true
+    },
+    {
+      "part": "P5",
+      "file": "P5_WALL_STRAP.step",
+      "n_solids": 1,
+      "bbox_src": [
+        25.0,
+        110.0,
+        280.0
+      ],
+      "bbox_imp": [
+        25.0,
+        110.0,
+        280.0
+      ],
+      "vol_src": 17711.1,
+      "vol_imp": 17711.1,
+      "dvol_pct": 0.0,
+      "dims_match": true,
+      "valid": true
+    },
+    {
+      "part": "UPLOAD",
+      "file": "upload_parts.step",
+      "n_solids": 6,
+      "bbox_src": null,
+      "bbox_imp": null,
+      "vol_src": null,
+      "vol_imp": 3069083.3,
+      "dvol_pct": null,
+      "dims_match": true,
+      "valid": true
+    }
+  ],
+  "dxf": [
+    {
+      "part": "P1",
+      "file": "P1_SIDE_SLAB_flat.dxf",
+      "dxftype": "AC1015",
+      "units": 4,
+      "n_cut_entities": 12,
+      "n_bend": 0,
+      "holes_found": 11,
+      "holes_expected": 11,
+      "arcs": 0,
+      "arc_radii_ok": true,
+      "outline_closed": true,
+      "holes_inside": true,
+      "bends_found": 0,
+      "bends_expected": 0,
+      "bbox": [
+        400.0,
+        726.88
+      ],
+      "ok": true,
+      "min_x": 0.0,
+      "min_y": 0.0
+    },
+    {
+      "part": "P2",
+      "file": "P2_SHELF_TRAY_flat.dxf",
+      "dxftype": "AC1015",
+      "units": 4,
+      "n_cut_entities": 25,
+      "n_bend": 4,
+      "holes_found": 0,
+      "holes_expected": 0,
+      "arcs": 12,
+      "arc_radii_ok": true,
+      "outline_closed": true,
+      "holes_inside": true,
+      "bends_found": 4,
+      "bends_expected": 4,
+      "bbox": [
+        619.69,
+        453.45
+      ],
+      "ok": true,
+      "min_x": 0.0,
+      "min_y": 0.0
+    },
+    {
+      "part": "P3",
+      "file": "P3_BASE_TRAY_flat.dxf",
+      "dxftype": "AC1015",
+      "units": 4,
+      "n_cut_entities": 29,
+      "n_bend": 4,
+      "holes_found": 4,
+      "holes_expected": 4,
+      "arcs": 12,
+      "arc_radii_ok": true,
+      "outline_closed": true,
+      "holes_inside": true,
+      "bends_found": 4,
+      "bends_expected": 4,
+      "bbox": [
+        619.69,
+        433.45
+      ],
+      "ok": true,
+      "min_x": 0.0,
+      "min_y": 0.0
+    },
+    {
+      "part": "P4",
+      "file": "P4_REAR_PANEL_flat.dxf",
+      "dxftype": "AC1015",
+      "units": 4,
+      "n_cut_entities": 5,
+      "n_bend": 2,
+      "holes_found": 4,
+      "holes_expected": 4,
+      "arcs": 0,
+      "arc_radii_ok": true,
+      "outline_closed": true,
+      "holes_inside": true,
+      "bends_found": 2,
+      "bends_expected": 2,
+      "bbox": [
+        599.09,
+        398.5
+      ],
+      "ok": true,
+      "min_x": 0.0,
+      "min_y": 0.0
+    },
+    {
+      "part": "P5",
+      "file": "P5_WALL_STRAP_flat.dxf",
+      "dxftype": "AC1015",
+      "units": 4,
+      "n_cut_entities": 6,
+      "n_bend": 2,
+      "holes_found": 1,
+      "holes_expected": 1,
+      "arcs": 2,
+      "arc_radii_ok": true,
+      "outline_closed": true,
+      "holes_inside": true,
+      "bends_found": 2,
+      "bends_expected": 2,
+      "bbox": [
+        25.0,
+        390.0
+      ],
+      "ok": true,
+      "min_x": 0.0,
+      "min_y": 0.0
+    }
+  ]
+}

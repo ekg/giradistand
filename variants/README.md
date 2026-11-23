@@ -4,7 +4,6 @@ Both variants are complete parametric designs with their own CAD, exports, drawi
 renders, calculations, BOM and cost model. Nothing here is built or quoted.
 
 | | **A — steel, upright** | **B — plywood, upright** |
-|---|---|---|
 | folder | `upright_steel/` | `upright_plywood/` |
 | overall (W × D × H) | **486 × 400 × 741** | **518 × 415 × 745** |
 | turntable surface / plinth top | 741 / 882 | 745 / 887 |
@@ -19,6 +18,20 @@ renders, calculations, BOM and cost model. Nothing here is built or quoted.
 | max shelf deflection | 0.32 mm (base, 40 kg: 1.94 mm) | 0.04 mm (base, 40 kg: 0.12 mm) |
 | racking drift at 100 N | 0.65 mm | 0.17 mm (pinned: 0.69) |
 | unrestrained tip force (loaded / no records) | 115 / 73 N | ~100 / ~60 N |
+
+**A third option keeps both orientations open** — `dual_steel/`:
+
+| | **C — steel, dual-mode bay** |
+|---|---|
+| overall | **570 × 400 × 741** |
+| speaker bay | 566 × 400 × **305** (takes the pair upright *or* lying down) |
+| acoustic centres | 413 mm upright / 287 mm lying down |
+| cost estimate | ≈ US$525 |
+| the catch | it is as wide as the lying-down design (+43 % on the turntable's footprint) and, when you do lie the speakers down, 115 mm of the bay is visible empty air |
+
+Sizing the bay for both orientations means sizing it for the **union** of the two
+envelopes: 566 W (lying-down width) × 305 H (upright height). There is no smaller bay that
+takes both, which is why variant C is the parent's width with variant A's height.
 
 ## What the upright orientation changes, and why it is worth considering
 
@@ -63,7 +76,7 @@ equipment measurements (which face of the speaker rests on the shelf is now sett
 choosing upright — but the cabinet's identity, the turntable model and the record
 container are still provisional).
 
-## Regenerating either variant
+## Regenerating any variant
 
 ```bash
 cd variants/upright_steel          # or upright_plywood

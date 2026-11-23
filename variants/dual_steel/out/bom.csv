@@ -1,0 +1,22 @@
+part,description,qty,material,thickness_mm,finish,bends,holes_slots,flat_area_mm2,cut_length_m,mass_each_kg,unit_price_est_usd,ext_price_est_usd
+P1,SIDE SLAB,2,Mild steel CRS 1008/1010,1.88,powder coat textured black BK01,0,11,290752,2.44,4.29,37.42,74.85
+P2,SHELF TRAY,2,Mild steel CRS 1008/1010,1.88,powder coat textured black BK01,4,6,270688,2.33,4.04,49.86,99.72
+P3,BASE TRAY,1,Mild steel CRS 1008/1010,1.88,powder coat textured black BK01,4,10,261813,2.37,3.90,49.25,49.25
+P4,REAR PANEL,1,Mild steel CRS 1008/1010,1.88,powder coat textured black BK01,2,4,238736,2.06,3.54,42.29,42.29
+P5,WALL STRAP,1,Mild steel CRS 1008/1010,1.88,powder coat textured black BK01,1,1,9750,0.85,0.14,30.00,30.00
+
+PURCHASED,,qty,spec,,,,,,,,unit_est_usd,ext_est_usd
+,"M5x12 button head screw, ISO 7380-1, A2-70 black",22,"M5x12, 3 mm hex socket",,,,,,,,0.42,9.24
+,"M5 flanged nylon-insert locknut, DIN 6923, A2",22,"M5, 8 mm AF",,,,,,,,0.34,7.48
+,"M6 levelling glide, male stud",4,"M6x40 thread, 23 mm polymer base, 9 mm high",,,,,,,,1.85,7.40
+,"M6 flanged nylon-insert locknut, DIN 6923",4,"M6, 10 mm AF",,,,,,,,0.38,1.52
+,IsoAcoustics ISO-PUCK mini (box of 8),1,"44 mm dia x 24 mm, 2.75 kg each",,,,,,,,79.00,79.00
+,Groove Crate 14.5 x 14.5 x 14.125 in record crate,1,"HDPE, 368 x 368 x 359 mm, ~80-100 LPs",,,,,,,,34.00,34.00
+,3M 2552 aluminium-foil damping tape (optional),1,25 mm x 5 m roll,,,,,,,,22.00,22.00
+,Wall fixings for P5 strap (user supplies),2,2 x 4.0 x 40 screw or plasterboard anchor,,,,,,,,0.30,0.60
+
+,fabrication subtotal,,,,,,,,,,,296.10
+,purchased subtotal,,,,,,,,,,,161.24
+,shipping (estimate),,,,,,,,,,,28.00
+,sales tax @ 8.25%,,,,,,,,,,,40.04
+,TOTAL ESTIMATE,,,,,,,,,,,525.38

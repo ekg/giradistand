@@ -99,7 +99,10 @@ Powered Partners up (150 × 196 × 270 triangular plan) drops the speaker pair f
 to 282 mm, so the turntable finally sets the width —
 
 * **A, steel:** 486 × 400 × 741 mm, ≈US$514, platter at 882 mm;
-* **B, plywood flat-pack:** 518 × 415 × 745 mm, ≈US$331, six dowels, mallet only.
+* **B, plywood flat-pack:** 518 × 415 × 745 mm, ≈US$331, six dowels, mallet only;
+* **C, steel "dual-mode":** 570 × 400 × 741 mm, ≈US$525 — the bay is sized for both
+  orientations (566 × 305), so the speakers can stand up *or* lie down. It is as wide as
+  the lying-down design and leaves 115 mm of visible air when they are down.
 
 Both put the baffles vertical (toed in 20°, because the baffle is on the diagonal face),
 spread the acoustic centres to 329 mm, and bring the footprint to within 22 % of the
