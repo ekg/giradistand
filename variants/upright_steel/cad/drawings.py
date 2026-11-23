@@ -132,12 +132,12 @@ def sheet_assembly():
 
     yb = v1["yb"] - 22
     sh.dim_h(v1["xl"], v1["xr"], yb, "486")
-    sh.dim_h(v1["xl"] + sc * P.T, v1["xr"] - sc * P.T, yb - 9, "566.2 clear")
+    sh.dim_h(v1["xl"] + sc * P.T, v1["xr"] - sc * P.T, yb - 9, "482.2 clear")
     sh.dim_h(v1["xl"] + sc * (P.W_OVER / 2 - P.SPK_X - P.SPK_WB / 2),
              v1["xl"] + sc * (P.W_OVER / 2 - P.SPK_X + P.SPK_WB / 2), yb - 18,
              f"{P.SPK_WB:.0f} speaker (toed in)")
     sh.dim_h(v2["xl"], v2["xr"], v2["yb"] - 22, "400")
-    sh.dim_h(v3["xl"], v3["xr"], v3["yb"] - 10, "570")
+    sh.dim_h(v3["xl"], v3["xr"], v3["yb"] - 10, "486")
 
     notes(sh, 462, 284, [
         "1. Dimensions in mm. Material CRS 1.88 mm throughout; deburr all",
@@ -151,8 +151,8 @@ def sheet_assembly():
         "   tray's flange pocket would have been closed). Torque 3.0 N.m.",
         "5. Feet: 4 x M6 male-stud glide, 35 mm thread, 23 mm base on the floor,",
         "   + DIN 6923 M6 flanged locknut on the deck's TOP face.",
-        "6. Clear openings: record bay 566.2 W x 396.3 D x 400 H; speaker bay",
-        "   566.2 W x 400 D x 190 H; turntable surface 566.2 x 400, flat.",
+        "6. Clear openings: record bay 482.2 W x 393.8 D x 400 H (370 usable);",
+        "   speaker bay 482.2 x 400 x 305 H; turntable surface 482.2 x 400 flat.",
         "7. Turntable plinth top at 882 above floor at nominal foot setting.",
         "8. Speakers stand UPRIGHT (150 x 196 plan x 270 high), each toed in",
         "   20 deg, on 3 x ISO-PUCK mini isolators set in from the triangle corners.",
@@ -223,7 +223,7 @@ def sheet_tray(pid, z_top, front_h, foot_holes, title, number, fname):
                      "FLAT PATTERN - bend lines dashed red",
                      hole_d=P.FOOT["clearance"])
     # plan dims
-    sh.dim_h(v1["xl"], v1["xr"], v1["yb"] - 10, "566.2")
+    sh.dim_h(v1["xl"], v1["xr"], v1["yb"] - 10, "482.2")
     sh.dim_v(v1["yb"], v1["yt"], v1["xr"] + 10, "400")
     sh.dim_h(v1["xl"] + sc * (P.TRAY_W / 2 + P.TRAY_BOLT_Y[0]),
              v1["xl"] + sc * (P.TRAY_W / 2 + P.TRAY_BOLT_Y[-1]),
